@@ -1,0 +1,13 @@
+P {
+    color:red;
+    font-size: 30px;
+}
+
+
+h1{
+    color: blue;
+}
+
+.estilocapa{
+   border: 2px outset blue;
+}
