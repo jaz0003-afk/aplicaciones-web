@@ -8,12 +8,44 @@
 <body>
     
     <form>
-        <h3><label for="cmedac">Curso Medac</label></h3>
+    <fieldset>
+        <legend> MIS DATOS</legend>
+        <h1><label for="cmedac">Curso Medac</label></h1>
        <input type="text" id="cmedac" value="SMR"><br>
        <h3><label for="modulo">Modulo</label></h3>
-       <input type="text" id="mmedac" name="mmedac" value="Aplicaciones Web"> 
+       <input type="text" id="mmedac" name="mmedac" value="Aplicaciones Web">
+       </fieldset>
     </form>
 
+    <h1>Formulario lista de la compra</h1>
+
+    <form>
+    <fieldset>
+       <legend> formulario de la compra</legend>
+       <input type="checkbox" id="elem1" name="elem1" value="leche">
+       <label for="elemento1">caja de leche</label><br>
+       <input type="checkbox" id="elem2" name="elem2" value="pan" checked="true">
+       <label for="elemento2"> pan rústico</label><br>
+       <input type="checkbox" id="elem3" name="elem3" value="huevos">
+       <label for="elemento3">Huevos(docena)</label><br>
+       <h1></h1>
+    </fieldset>
+    </form>
+
+    <h1>lista despegable</h1>
+    <form>
+    <fieldset>
+    <legend> lista despegable</legend>
+    <select name="select">
+        <option value="modulo1">sistemas operativos en red</option>
+        <option value="modulo2" selected>aplicaciones web</option>
+        <option value="modulo3">seguridad informatica</option>
+    </fieldset>
+    <form>
+    </select>
+    <br>
+    <button type="button" onclick="alert(`datos enviados correctamente`)"> enviar datos</button>
     
+    <hr>
 </body>
 </html>
